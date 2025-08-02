@@ -36,3 +36,23 @@ if __name__ == "__main__":
     print(f"5 - 3 = {subtracao(5, 3)}")
     print(f"10.5 - 4.5 = {subtracao(10.5, 4.5)}")
     print(f'8 - 2 = {subtracao(8,2)}')
+    
+
+def exponecial(a, b):
+    """
+    Realiza o cálculo exponecial de "a" elevado a um valor "b".
+
+    Parâmetros:
+    a (int/float): Primeiro número
+    b (int/float): Segundo número
+    Retorna:
+    int/float: Resultado da subtração
+    """
+    return a ** b
+
+
+if __name__ == "__main__":
+    print("Teste da função subtracao:")
+    print(f"5 ** 3 = {exponecial(5, 3)}")
+    print(f"10.5 ** 4.5 = {exponecial(10.5, 4.5)}")
+    print(f'8 ** 2 = {exponecial(8, 2)}')
