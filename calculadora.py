@@ -55,3 +55,4 @@ if __name__ == "__main__":
     print(f"5.5 * 4.5 = {multiplicacao(5.5, 4.5)}")
     print(f'6 * 2 = {multiplicacao(6,2)}')
     print(f'8 * 2 = {multiplicacao(8,2)}')
+    print('Fim do teste de multiplicação')
