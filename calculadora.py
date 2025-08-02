@@ -1,3 +1,6 @@
+import math
+# Baixar biblioteca math para usar a função raiz quadrada
+
 def soma(a, b):
     """
     Realiza a soma de dois números.
@@ -56,3 +59,21 @@ if __name__ == "__main__":
     print(f'6 * 2 = {multiplicacao(6,2)}')
     print(f'8 * 2 = {multiplicacao(8,2)}')
     print('Fim do teste de multiplicação')
+
+def raiz_quadada (a):
+    """
+    Calcula a raiz quadrada de um número.
+
+    Parâmetros:
+    a (int/float): Número
+    
+    Retorna:
+    int/float: Resultado da raiz quadrada
+    """
+    return math.sqrt(a)
+
+if __name__ == "__main__":
+    print("Teste da função Raiz quadrada:")
+    print(f'A Raiz quadrade de {4} é igual a {raiz_quadada(4)}')
+    print(f'A Raiz quadrade de {16} é igual a {raiz_quadada(16)}')
+    print(f'A Raiz quadrade de {20} é igual a {raiz_quadada(20)}')
