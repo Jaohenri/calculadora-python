@@ -46,7 +46,7 @@ def exponecial(a, b):
     a (int/float): Primeiro número
     b (int/float): Segundo número
     Retorna:
-    int/float: Resultado da subtração
+    int/float: Resultado
     """
     return a ** b
 
