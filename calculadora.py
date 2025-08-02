@@ -61,9 +61,8 @@ if __name__ == "__main__":
     print(f"5 ** 3 = {exponecial(5, 3)}")
     print(f"10.5 ** 4.5 = {exponecial(10.5, 4.5)}")
     print(f'8 ** 2 = {exponecial(8, 2)}')
-    
 
-    def raiz_quadada (a):
+def raiz_quadada (a):
         """
         Calcula a raiz quadrada de um número.
 
