@@ -43,7 +43,26 @@ if __name__ == "__main__":
     print(f'8 - 2 = {subtracao(8,2)}')
     
 
-    def raiz_quadada (a):
+def exponecial(a, b):
+    """
+    Realiza o cálculo exponecial de "a" elevado a um valor "b".
+
+    Parâmetros:
+    a (int/float): Primeiro número
+    b (int/float): Segundo número
+    Retorna:
+    int/float: Resultado
+    """
+    return a ** b
+
+
+if __name__ == "__main__":
+    print("Teste da função exponecial:")
+    print(f"5 ** 3 = {exponecial(5, 3)}")
+    print(f"10.5 ** 4.5 = {exponecial(10.5, 4.5)}")
+    print(f'8 ** 2 = {exponecial(8, 2)}')
+
+def raiz_quadada (a):
         """
         Calcula a raiz quadrada de um número.
 
