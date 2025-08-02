@@ -56,7 +56,7 @@ if __name__ == "__main__":
         return math.sqrt(a)
     
 if __name__ == "__main__":
-    print("Teste da função subtracao:")
+    print("Teste da função Raiz quadrada:")
     print(f'A Raiz quadrade de {4} é igual a {raiz_quadada(4)}')
     print(f'A Raiz quadrade de {16} é igual a {raiz_quadada(16)}')
     print(f'A Raiz quadrade de {20} é igual a {raiz_quadada(20)}')
