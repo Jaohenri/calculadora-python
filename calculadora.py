@@ -52,7 +52,7 @@ def exponecial(a, b):
 
 
 if __name__ == "__main__":
-    print("Teste da função subtracao:")
+    print("Teste da função exponecial:")
     print(f"5 ** 3 = {exponecial(5, 3)}")
     print(f"10.5 ** 4.5 = {exponecial(10.5, 4.5)}")
     print(f'8 ** 2 = {exponecial(8, 2)}')
